@@ -9,3 +9,8 @@
       shell:     #(Shell module which helps to run the shell commands)
         cmd:     #(Sub module of shell where the commands has to be provided)
         chdir:   #(Sub module helps to change the directory)
+    
+    - name:
+      yum:        #(Yum module helps to install package)
+        name: git #(Package name which has to be installed)
+        state: present #(This param makes install)
