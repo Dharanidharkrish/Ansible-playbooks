@@ -1,0 +1,11 @@
+#Playbooks has to be written in yaml format
+
+
+---
+ - hosts: all    #(The target machine ip's has to be given)
+   become: true  #(becoming the desired user (or) by default it will take root)
+   tasks:        #(The task module which describes the performing steps)
+    - name:      #(The name of the task)
+      shell:     #(Shell module which helps to run the shell commands)
+        cmd:     #(Sub module of shell where the commands has to be provided)
+        chdir:   #(Sub module helps to change the directory)
