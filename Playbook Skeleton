@@ -8,4 +8,4 @@
     - name:      #(The name of the task)
       shell:     #(Shell module which helps to run the shell commands)
         cmd:     #(Sub module of shell where the commands has to be provided)
-        chdir:   #(Sub module helps to change the directory).
+        chdir:   #(Sub module helps to change the directory)
